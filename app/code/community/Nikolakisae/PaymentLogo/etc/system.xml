@@ -30,6 +30,15 @@
                             <show_in_store>1</show_in_store>
                             <comment>Allowed file types: jpeg, gif, png.</comment>
                         </image>
+                        <display_options translate="label">
+                            <label>Display Logo Options</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>paymentlogo/adminhtml_system_config_source_logooptions</source_model>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </display_options>
                     </fields>
                 </ccsave>
                 <checkmo translate="label">
@@ -52,6 +61,15 @@
                             <show_in_store>1</show_in_store>
                             <comment>Allowed file types: jpeg, gif, png.</comment>
                         </image>
+                        <display_options translate="label">
+                            <label>Display Logo Options</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>paymentlogo/adminhtml_system_config_source_logooptions</source_model>
+                            <sort_order>12</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </display_options>
                     </fields>
                 </checkmo>
                 <purchaseorder translate="label">
@@ -74,6 +92,15 @@
                             <show_in_store>1</show_in_store>
                             <comment>Allowed file types: jpeg, gif, png.</comment>
                         </image>
+                        <display_options translate="label">
+                            <label>Display Logo Options</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>paymentlogo/adminhtml_system_config_source_logooptions</source_model>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </display_options>
                     </fields>
                 </purchaseorder>
                 <banktransfer translate="label">
@@ -96,6 +123,15 @@
                             <show_in_store>1</show_in_store>
                             <comment>Allowed file types: jpeg, gif, png.</comment>
                         </image>
+                        <display_options translate="label">
+                            <label>Display Logo Options</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>paymentlogo/adminhtml_system_config_source_logooptions</source_model>
+                            <sort_order>12</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </display_options>
                     </fields>
                 </banktransfer>
                 <cashondelivery translate="label">
@@ -118,6 +154,15 @@
                             <show_in_store>1</show_in_store>
                             <comment>Allowed file types: jpeg, gif, png.</comment>
                         </image>
+                        <display_options translate="label">
+                            <label>Display Logo Options</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>paymentlogo/adminhtml_system_config_source_logooptions</source_model>
+                            <sort_order>12</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </display_options>
                     </fields>
                 </cashondelivery>
                 <authorizenet_directpost translate="label">
@@ -140,6 +185,15 @@
                             <show_in_store>1</show_in_store>
                             <comment>Allowed file types: jpeg, gif, png.</comment>
                         </image>
+                        <display_options translate="label">
+                            <label>Display Logo Options</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>paymentlogo/adminhtml_system_config_source_logooptions</source_model>
+                            <sort_order>32</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </display_options>
                     </fields>
                 </authorizenet_directpost>
                 <authorizenet translate="label">
@@ -163,6 +217,15 @@
                             <show_in_store>1</show_in_store>
                             <comment>Allowed file types: jpeg, gif, png.</comment>
                         </image>
+                        <display_options translate="label">
+                            <label>Display Logo Options</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>paymentlogo/adminhtml_system_config_source_logooptions</source_model>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </display_options>
                     </fields>
                 </authorizenet>
             </groups>

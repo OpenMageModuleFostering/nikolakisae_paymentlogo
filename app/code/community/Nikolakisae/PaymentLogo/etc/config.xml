@@ -2,10 +2,15 @@
 <config>
     <modules>
         <Nikolakisae_PaymentLogo>
-            <version>0.1.2</version>
+            <version>0.1.3</version>
         </Nikolakisae_PaymentLogo>
     </modules>
     <global>
+        <models>
+            <paymentlogo>
+                <class>Nikolakisae_PaymentLogo_Model</class>
+            </paymentlogo>
+        </models>
         <blocks>
             <paymentlogo>
                 <class>Nikolakisae_PaymentLogo_Block</class>
