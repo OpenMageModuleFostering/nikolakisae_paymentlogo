@@ -22,12 +22,12 @@ class Nikolakisae_PaymentLogo_Block_Checkout_Onepage_Payment_Methods extends Mag
 
     public function getMethodTitle(Mage_Payment_Model_Method_Abstract $method) {
 
-
+Mage::log($method->debug());
         $imageLogo = '';
         $form = $this->getChild('payment.method.' . $method->getCode());
 
         if (file_exists(Mage::getBaseDir('media') . DS . 'payment' . DS . $method->getCode() . DS . Mage::getStoreConfig('payment/' . $method->getCode() . '/image')) && Mage::getStoreConfig('payment/' . $method->getCode() . '/image')) {
-            $imageLogo = '<img src="' . Mage::getBaseUrl('media') . 'payment/' . $method->getCode() . '/' . Mage::getStoreConfig('payment/' . $method->getCode() . '/image') . '" style="width:100%;" border="0" alt="Null">';
+            $imageLogo = '<img src="' . Mage::getBaseUrl('media') . 'payment/' . $method->getCode() . '/' . Mage::getStoreConfig('payment/' . $method->getCode() . '/image') . '">';
         }
 
         if ($imageLogo != '' && Mage::getStoreConfig('payment/' . $method->getCode() . '/display_options') == 2) {
