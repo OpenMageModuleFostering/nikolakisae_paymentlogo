@@ -17,7 +17,7 @@
                     <show_in_default>1</show_in_default>
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
-                    <fields>                 
+                    <fields>
                         <image translate="label">
                             <label>Paymento Logo</label>
                             <frontend_type>image</frontend_type>
@@ -29,7 +29,7 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                             <comment>Allowed file types: jpeg, gif, png.</comment>
-                        </image>                 
+                        </image>
                     </fields>
                 </ccsave>
                 <checkmo translate="label">
@@ -51,9 +51,9 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                             <comment>Allowed file types: jpeg, gif, png.</comment>
-                        </image> 
+                        </image>
                     </fields>
-                </checkmo> 
+                </checkmo>
                 <purchaseorder translate="label">
                     <label>Purchase Order</label>
                     <frontend_type>text</frontend_type>
@@ -73,7 +73,7 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                             <comment>Allowed file types: jpeg, gif, png.</comment>
-                        </image> 
+                        </image>
                     </fields>
                 </purchaseorder>
                 <banktransfer translate="label">
@@ -95,7 +95,7 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                             <comment>Allowed file types: jpeg, gif, png.</comment>
-                        </image> 
+                        </image>
                     </fields>
                 </banktransfer>
                 <cashondelivery translate="label">
@@ -117,9 +117,54 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                             <comment>Allowed file types: jpeg, gif, png.</comment>
-                        </image> 
+                        </image>
                     </fields>
                 </cashondelivery>
+                <authorizenet_directpost translate="label">
+                    <label>Authorize.net Direct Post</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>34</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <image translate="label">
+                            <label>Paymento Logo</label>
+                            <frontend_type>image</frontend_type>
+                            <backend_model>adminhtml/system_config_backend_image</backend_model>
+                            <upload_dir config="system/filesystem/media" scope_info="1">payment/authorizenet_directpost</upload_dir>
+                            <base_url type="media" scope_info="1">payment/authorizenet_directpost</base_url>
+                            <sort_order>31</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Allowed file types: jpeg, gif, png.</comment>
+                        </image>
+                    </fields>
+                </authorizenet_directpost>
+                <authorizenet translate="label">
+                    <label>Authorize.net</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>34</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <comment><![CDATA[<a href="http://celinks.magento.com/authorize_netRegistration" target="_blank">Click here to sign up for an Authorize.net account</a>]]></comment>
+                    <fields>
+                        <image translate="label">
+                            <label>Paymento Logo</label>
+                            <frontend_type>image</frontend_type>
+                            <backend_model>adminhtml/system_config_backend_image</backend_model>
+                            <upload_dir config="system/filesystem/media" scope_info="1">payment/authorizenet</upload_dir>
+                            <base_url type="media" scope_info="1">payment/authorizenet</base_url>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Allowed file types: jpeg, gif, png.</comment>
+                        </image>
+                    </fields>
+                </authorizenet>
             </groups>
         </payment>
     </sections>
