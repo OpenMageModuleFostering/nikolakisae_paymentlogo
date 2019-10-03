@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Nikolakisae_PaymentLogo",
+    "name": "openmage-module-fostering\/nikolakisae_paymentlogo",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Payment Logo extension for Magento",
     "authors": [

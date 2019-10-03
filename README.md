@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Payment Logo extension for Magento
